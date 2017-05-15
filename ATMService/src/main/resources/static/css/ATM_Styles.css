@@ -1,0 +1,42 @@
+body{
+	font-family: "Palatino Linotype", Georgia, Serif;
+	max-width: 100%;
+}
+
+ .atmAppFirstPage, .atmAppSecondPage{
+	background-image: url('../images/atm.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+	width: 100%;
+	height:100%;
+}
+
+.transactionType{
+	overflow: hidden;
+}
+
+#ATMContainer, #ATMQRContainer{
+	background-color: #ffffff;
+	opacity: 0.8;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#atmWelcomeHead{
+	line-height: 1.5em;
+}
+
+.transactionType{
+	text-align: center;
+}
+
+.iciciBankLogoImg, .atmCardTransactionImg, .atmCardLessTransactionImg{
+	width:50%;
+}
+
+#cancelATMRequest{
+	background-color: #f5821f;
+	border-color: #f5821f;
+	padding: 10px 20px;
+    font-size: 20px;
+}

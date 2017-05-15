@@ -1,0 +1,385 @@
+body{
+	font-family: "Palatino Linotype", Georgia, Serif;
+	overflow: hidden;
+}
+
+/*Sidebar Changes Starts*/
+
+#menuSection {
+	left:-250px;
+}
+.menuActive #menuSection {
+	left:0px;
+}
+#menuSection {
+	width:240px;
+	/*background: #fff;*/
+	background-color:#282826; 
+	opacity:0.8;
+	float: left;
+  	position: fixed;	
+  	top:0px;
+  	-webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+#menuSection ul {
+	padding-left:10px;
+}
+#menuSection li {
+	list-style-type: none;
+    color: #fff;
+    border-bottom: 1px solid #ececec;
+    margin-right: 10px;
+    text-align: left;
+    padding: 4px;
+}
+#menuSection li a {
+	text-decoration: none;
+	padding: 15px 0px;
+  	display: block;
+  	font-family: 'interstateextralight';
+  	font-size: 15px;
+  	color:#fff;
+}
+#menuSection li a i {
+	margin-right:6px;
+	color:#fff;
+	width: 15px;
+    text-align: center;
+}
+#menuSection li a:hover i,#menuSection li a:active i,#menuSection li a:focus i{
+	margin-right:14px;
+}
+
+#menuTopDiv {
+	height:60px;
+	background: #013561;
+	color:#fff;
+}
+#menuTopDiv h4 {
+	line-height: 60px;
+	font-size: 16px;
+	margin:0px;
+}
+#menuTopDiv h4 a {
+	color:#2FB3E6;
+	font-size: 12px;
+}
+#menuTopDiv h4 a i {
+	color:#fff;
+}
+
+
+/*Sidebar Changes Ends*/
+
+/*Login Page Starts*/
+.login_head_section{
+	text-align: center;
+	padding: 2%;
+}
+
+.loginFooterMenu{
+	margin-top: 35px;
+	text-align: center;
+}
+
+.loginFooterMenu1{
+	margin-top: 10px; 
+}
+
+.login_col1_img{
+	margin-left: -10px;
+}
+
+.instaBanking{
+	margin-left: -10px;
+}
+
+.loginPageMainContainer{
+	padding-top: 10%;
+}
+
+.loginPageAdCarousel{
+	background-color: #f5821f;
+}
+
+.loginPageOfferImg{
+	width: 100%;
+}
+
+#loginPageFormDetails{
+	padding-top: 10%;
+}
+
+#userPIN{
+	height: 50px;
+	font-size: 17px;
+	border: 1px solid #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+	margin-top: -35px;
+}
+
+.forgotLoginPIN{
+	float: right;
+    font-size: 1.25em;
+    color: #212544;
+    text-decoration: underline;
+}
+
+#loginLock{
+	margin-top: 10px;
+}
+
+input[id="userPIN"]:focus{
+	border: 1px solid #fff;
+	//border-bottom: 1px solid rgba(226, 61, 24, 0.96);
+	border-bottom: 5px solid red;
+	outline: 0 none;
+	box-shadow: none;
+}
+
+/*Login Page Ends*/
+
+.userAppFirstPage{
+	/*position: fixed;*/
+}
+
+.mainDivMove{
+	position: relative;
+	left: 240px;
+}
+
+.menuIcon, .closeIcon{
+	width: 10%;
+	margin-left: 3%;
+}
+
+.closeMenuIcon{
+	width: 10%;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+.searchIcon{
+	width: 5%;
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.iciciLogo{
+	width: 50%;
+	margin-left: 10%;
+}
+
+.user_details{
+	padding: 5%;
+}
+
+.userIcon{
+	width: 20%;
+    float: left;
+    margin-left: 0%;
+}
+
+.userLogin{
+	margin-left: 25%;
+}
+
+.header_section{
+	background-image: url('../images/cute_nature-HD.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.menu_search_section{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.menu_search_section, .user_details {
+  margin: -1px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.favourite_section{
+	background-color: #f5821f;
+	color: #fff;
+	padding: 1px;
+}
+
+.fav_star_img{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.starImg{
+	width: 60px;
+    float: left;
+}
+
+.fav_transaction{
+	margin-top: 3%;
+}
+
+.fav_transaction h3{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+.fav_transaction h5{
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.fav_fwd_img{
+    margin-top: 25px;
+}
+
+.arrowImg{
+	width: 40%;
+}
+
+.grpImg, .billPayImg, .cardLessImg, .cardLoanImg, .shopImg, .investImg, .smartKeyImg{
+	width: 80%;
+}
+
+.fundImg{
+	width: 70%;
+}
+
+.rechargeImg{
+	width: 100%;
+}
+
+.col1_img{
+	padding-top: 30px;
+}
+
+.col2_img, .col3_img{
+	padding-top: 25px;
+}
+
+.acc_deposit, .fund_transfer, .bill_payment, .cardless, .shopping, .investments{
+	border-right: 2px solid #ccc;
+}
+
+.row1{	
+	text-align: center;
+}
+
+.row2{
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	text-align: center;
+}
+
+.row3{
+	text-align: center;
+}
+
+/*Second Page Starts*/
+
+.header_title_section{
+	background-color: #f5821f;
+    color: #fff;
+    padding: 1px;
+}
+
+.menu_help_section{
+	padding: 2%;
+}
+
+.menuCardIcon{
+	width: 15%;
+    margin-left: 0%;
+    float: left;
+}
+
+.leftArrowIcon{
+	width: 4%;
+    float: left;
+    margin-top: 4%;
+}
+
+.helpIcon{
+	width: 7%;
+    float: right;
+    margin-top: -10%;
+}
+
+.cardLessMainContainer{
+	background-image: url('../images/cardlessBgImg.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	text-align: center;
+}
+
+.mainSection, .cardLessOptions{
+	margin: -1px;
+	background-color: #ffffff;
+	opacity: 0.8;
+	filter: alpha(opacity=60); 
+	padding: 2%;
+}
+
+/*ATM Page Starts*/
+
+.cardLessMainATMContainer{
+	text-align: center;
+}
+
+#myCarousel{
+	padding-top: 0px;
+	padding-left: 15%;
+	/*padding-bottom: 15%;*/
+	padding-right: 15%;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+
+.carouselLeftImg, .carouselRightImg{
+	width: 100%;
+    margin-top: 90%;
+}
+
+.carousel-caption {
+    position: relative;
+    right: 15%;
+    bottom: 20px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    margin-top: 5%;
+}
+
+#cardDetailsSubmit{
+	background-color: #f5821f;
+	border-color: #f5821f;
+	padding: 10px 20px;
+    font-size: 20px;
+}
+
+#chooseCardHead{
+	line-height: 1.5em;
+}
+
+.cardNoLabel{
+	margin-bottom: 15px;
+	font-size: 1.5em;
+}
+
+#cardNo{
+	height: 50px;
+	font-size: 17px;
+}

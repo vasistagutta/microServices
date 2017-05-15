@@ -1,0 +1,7 @@
+---
+applications:
+ - name: ATMService
+   random-route: true
+   path: target/ATMService-0.0.1-SNAPSHOT.war
+   memory: 512M
+   instances: 1

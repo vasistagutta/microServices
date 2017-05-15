@@ -1,0 +1,19 @@
+{
+  "cardDetails": [{
+    "carouselClassName": "item active",
+    "cardImage": "images/atmCard1.png",
+    "cardNo": "123456789412",
+  }, {
+    "carouselClassName": "item",
+    "cardImage": "images/atmCard2.png",
+    "cardNo": "321456987412",
+  }, {
+    "carouselClassName": "item",
+    "cardImage": "images/atmCard3.png",
+    "cardNo": "987456210358",
+  }, {
+    "carouselClassName": "item",
+    "cardImage": "images/atmCard4.png",
+    "cardNo": "574512478977",
+  }]
+}
